@@ -1,0 +1,17 @@
+{
+  "name": "count-git-commits",
+  "version": "1.0.0",
+  "description": "",
+  "main": "count.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel McCallin",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.2"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
