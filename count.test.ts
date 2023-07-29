@@ -74,7 +74,7 @@ describe("command list", () => {
 describe("exec formatting", () => {
   it("should concatenate exec string with correct date", () => {
     expect(createGitLogCommand("2023-08-26")).toBe(
-      `git log --oneline --since="2023-08-25" --until="2023-08-26"`
+      `git log --oneline --since="2023-08-26T00:00:00-00:00" --until="2023-08-27T00:00:00-00:00"`
     )
   })
 })
