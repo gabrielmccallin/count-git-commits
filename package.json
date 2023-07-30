@@ -4,7 +4,8 @@
   "description": "",
   "main": "count.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "ts-node count.ts"
   },
   "author": "Gabriel McCallin",
   "license": "ISC",
