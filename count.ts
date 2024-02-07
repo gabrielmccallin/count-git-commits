@@ -5,6 +5,7 @@ export const createGitLogCommand = (dateString: string) => {
   return `git log --oneline --since="${dateString}T00:00:00-00:00" --until="${since}T00:00:00-00:00"`
 }
 
+// wowowowowo
 export const addDays = (dateString: string, days: number) => {
   const date = new Date(dateString)
   const nextDay = new Date(date)
